@@ -57,9 +57,11 @@
     width: 16px;
     height: 16px
 }
-.search{
+
+.search {
     float: left;
 }
+
 .people {
     float: right;
 }
