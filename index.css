@@ -19,9 +19,9 @@
 .navigation-box {
     width: 1200px;
     height: 44px;
-    margin: 0 74px;
+    margin: 0 auto;
     background: url("vivo.png") no-repeat left center/74px 20px;
-    position: absolute;
+    position: relative;
 }
 
 .nav-list {
@@ -57,7 +57,9 @@
     width: 16px;
     height: 16px
 }
-
+.search{
+    float: left;
+}
 .people {
     float: right;
 }
@@ -161,19 +163,19 @@
 }
 
 .iphone-list-box:nth-child(1) {
-    background: url("_original.jpg") center center/cover;
+    background: url("1_original.jpg") center center/cover;
 }
 
 .iphone-list-box:nth-child(2) {
-    background: url("_original2.jpg") center center/cover;
+    background: url("2_original2.jpg") center center/cover;
 }
 
 .iphone-list-box:nth-child(3) {
-    background: url("_original3.jpg") center center/cover;
+    background: url("3_original3.jpg") center center/cover;
 }
 
 .iphone-list-box:nth-child(4) {
-    background: url("_original4.jpg") center center/cover;
+    background: url("4_original4.jpg") center center/cover;
 }
 
 .title {
